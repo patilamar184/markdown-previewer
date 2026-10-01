@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Markdown Previewer</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <h1>Markdown Previewer</h1>
+        <button id="copy-btn" class="btn">Copy HTML</button>
+    </header>
+
+    <main class="app-container">
+        <!-- Editor Pane -->
+        <section class="pane editor-pane">
+            <div class="pane-header">Markdown Input</div>
+            <textarea id="editor" placeholder="Type your markdown here..."></textarea>
+        </section>
+
+        <!-- Preview Pane -->
+        <section class="pane preview-pane">
+            <div class="pane-header">Live Preview</div>
+            <div id="preview" class="markdown-body"></div>
+        </section>
+    </main>
+
+    <!-- Marked.js CDN for parsing Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
