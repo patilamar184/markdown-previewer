@@ -1,6 +1,6 @@
 <h1>Interactive Markdown Previewer</h1>
 <p>A lightweight, responsive web application that renders Markdown text into formatted HTML in real-time. Built using vanilla HTML, CSS, and JavaScript.</p>
-<p><a href="https://domain-name" target="_blank" rel="noopener noreferrer">✨ View Live Demo</a></p>
+<p><a href="https://patilamar184.github.io/markdown-previewer/" target="_blank" rel="noopener noreferrer">✨ View Live Demo</a></p>
 <h2>🚀 Features</h2>
 <ul>
 <li><strong>Live Preview:</strong> Instantly view rendered HTML as you type.</li>
